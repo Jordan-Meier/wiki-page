@@ -6,7 +6,7 @@
     <script src= "js/jquery-1.12.0.min.js"></script>
     <script src= "js/scripts.js"></script>
 
-    <title>Arrays</title>
+    <title>JS Functions</title>
   </head>
   <body>
     <div class="container jumbotron text-center">
@@ -31,13 +31,32 @@
 
     <div class="container">
       <div class="page-header">
-        <h1>Arrays</h1>
+        <h1>JS Functions</h1>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-8">
+          <p> JavaScript functions perform actions in the browser. Some examples of these are:</p>
+          <pre>
+            <ul>
+              <li>alert()</li>
+              <li>prompt()</li>
+              <li>confirm()</li>
+            </ul>
+          </pre>
 
+          <h3 id="alert">Click here to see an alert function</h3>
+          <h3>The following is the code that made that alert function operate:</h3>
+          <pre>
+            $(document).ready(function() {
+
+              $("#alert").click(function() {
+                alert("Well done, you clicked in the correct place!")
+              });
+
+            });
+          </pre>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
 
         </div>
 
